@@ -25,7 +25,7 @@ else:
 kolom_logo, kolom_teks = st.columns([1, 5])
 
 with kolom_logo:
-    st.image("gb.png", width=100)
+    st.image("gb.png", use_container_width=True)
 
 with kolom_teks:
     st.title("NutriPredict")
